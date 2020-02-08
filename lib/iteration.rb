@@ -38,12 +38,13 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   evenArr = []
-  
+
   src.each do |nums|
     if (nums[0] % 2 = 0 && nums[1] % 2 = 0)
       evenArr.push(nums[0])
       evenArr.push(nums[1])
     end
   end
+
   return evenArr
 end
