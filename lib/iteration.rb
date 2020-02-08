@@ -20,7 +20,7 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   big_nums = []
-  
+
   src.each do |numbers|
     numbers.sort
     big_nums.push(numbers[1])
