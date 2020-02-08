@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   pizza = []
 
-  src.each |toppings|
+  src.each do |toppings|
     pizza.push("I love #{toppings[0]} and #{toppings[1]} on my pizza")
   end
 
