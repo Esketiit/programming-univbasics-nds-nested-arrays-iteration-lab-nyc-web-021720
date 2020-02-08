@@ -40,7 +40,7 @@ def total_even_pairs(src)
   evenArr = []
 
   src.each do |nums|
-    if (nums[0] % 2 = 0 && nums[1] % 2 = 0)
+    if (nums[0] % 2 == 0 && nums[1] % 2 == 0)
       evenArr.push(nums[0])
       evenArr.push(nums[1])
     end
