@@ -22,7 +22,7 @@ def find_greater_pair(src)
   big_nums = []
 
   src.each do |numbers|
-    numbers.sort
+    numbers = numbers.sort
     big_nums.push(numbers[1])
   end
 
